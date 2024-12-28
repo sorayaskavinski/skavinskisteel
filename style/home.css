@@ -1,0 +1,78 @@
+:root{
+    --backgroundcolor: rgb(35, 37, 31);
+    --textcolor: rgb(202, 164, 87);
+}
+
+body, h2, p, ul, li, button {   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--backgroundcolor);
+    color: var(--textcolor);
+}
+header {    
+    display: flex;
+    unicode-bidi: isolate;
+    justify-content: space-between;
+    background-color: var(--backgroundcolor);
+    color: white;    
+}
+
+header img {
+    height: 120px;
+    width: auto;      
+}
+
+h1{
+    display: none;
+    color: var(--textcolor);
+}
+
+nav ul {
+    list-style: none;
+    display: none;    
+    flex-direction: column;
+    padding: 0;   
+}
+
+nav ul.visible {
+    display: flex;    
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;  
+}
+
+nav ul li a:hover {
+    background-color: #3a2b2b;
+}
+
+#hamburger {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;     
+    padding: 1rem; 
+    width: auto; 
+    height: auto; 
+    margin: 0;
+}
+
+.home{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+
+
